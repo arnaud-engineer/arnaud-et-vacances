@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arnaud & Vacances</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One|Ubuntu|Merriweather|Nunito|PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slide.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <slider>
+        <slide><p1>CALANQUES</p1></slide>
+        <slide><p1>POISSONS, PANISSES & PASTIS</p1></slide>
+        <slide><p1>CULTURE, MUSÉES ET TERRASSES</p1></slide>
+        <slide>
+          <p1><img src="rsrc/arnaudEtVacances.svg" /></p1>
+          <p>
+            Ton pote chez qui squatter à Marseille, allez, viens on est bien. Bien, bien, bien... 😘
+          </p>
+        </slide>
+      </slider>
+      <div id="sidemenu1" class="sidemenu">
+        <div class="sm-wrapper">
+          <a href="index.html">Accueil</a>
+          <a href="#">C tout, t'as cru quoi ? 😘</a>
+        </div>
+        <div class="contact">
+          <h4>Où que c'est ?</h4>
+          <h2>Ici, c'est Marseille</h2>
+          <p><a href="#">+33 06 XX XX XX XX</a></p>
+          <h3><a href="#">Si t'as pas mon num, c'est pas pour toi</a></h3>
+        </div>
+      </div>
+      <nav>
+        <div id="logo">
+          <li><a href="#"><img src="rsrc/arnaudEtVacances.svg" /></a></li>
+        </div>
+         <div id="menu-icon">
+          <div style="font-size: 50px; cursor: pointer;" onclick="openSM()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              viewBox="0 0 24 24"
+              id="menw"
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+          </div>
+
+          <a href="javascript:void(0)" class="close" onclick="closeSM()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="80"
+              height="50"
+              viewBox="0 0 24 24"
+              id="how"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+              <path d="M0 0h24v24H0z" fill="none" />
+            </svg>
+          </a>
+        </div>
+        <div id="booking">
+          <div
+            style="font-size: 50px; cursor: pointer; color: #5b5b5b"
+            onclick="openBL()"
+          >
+            <li id="book">Réserver</li>
+          </div>
+        </div>
+        <div id="book-list">
+          <div id="booking">
+            <a href="javascript:void(0)" class="close" onclick="closeBL()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="50"
+                viewBox="0 0 24 24"
+                style="display: block;"
+                id="haw"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+                <path d="M0 0h24v24H0z" fill="none" />
+              </svg>
+            </a>
+          </div>
+          <div class="wrapper">
+            <h1 id="til">Réserve maintenant, comme ça on s'organise</h1>
+            <p>
+              Tu viens quand tu veux mon reuf, mais préviens avant que je ne parte pas ailleurs.
+            </p>
+            <div class="reserve">
+              <h3>A&V - Marseille</h3>
+              <p>Réservation par messages uniquement</p>
+            </div>
+            <div class="group">
+              <iframe src="https://calendar.google.com/calendar/embed?src=f736fe7a1ebc246eba45583d32efe9af834c53cb236a151c7a2f0d03b5fc7f76%40group.calendar.google.com&ctz=Europe%2FBrussels" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="section-a">
+      <div class="bg-image"></div>
+      <div id="content">
+        <div class="key1">
+          <h3>C pa cher</h3>
+          <h1>Annulation sans frais</h1>
+          <p>
+            Vous pouvez également payer en 0x sans frais, bref, c'est gratuit, vous avez juste à viendre
+          </p>
+          <h4><a href="#">Ne pas en apprendre d'avantage</a></h4>
+        </div>
+        <div class="pic">
+          <img src="img/4.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section id="section-b">
+      <div class="grid grid1">
+        <a href="#"><p>CALANQUES, BONNE MÈRE, FARNIENTE, ...</p></a>
+      </div>
+      <div class="grid grid2">
+        <a href="#"><p>VIEUX PORT, GARE, METRO, TRAM, ...</p></a>
+      </div>
+      <div class="grid grid3">
+        <a href="#"><p>CLÉS POUR LES INVITÉS 😉</p></a>
+      </div>
+      <div class="grid grid4">
+        <a href="#"><p>4 COUCHAGES (+ SOL)</p></a>
+      </div>
+    </section>
+
+    <section id="section-d">
+      <div id="footer">
+        <p>© Wam - Arnaud et Vacances n'est pas une marque déposé - la bise</p>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./js/menu.js"></script>
+    <script type="text/javascript" src="./js/side.js"></script>
+  </body>
+</html>
