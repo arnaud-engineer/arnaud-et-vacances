@@ -1,6 +1,5 @@
-# Hotel-Website
-this is a static hotel website created using HTML, CSS, Javascript and JQuery 
+# No description
+Just a joke for friends and I needed a github pages, so ... 😅
 
-# Deployment
+# Shamefully stolen from : (because this site is a joke)
 https://banobepascal.github.io/Hotel-Website/
-
